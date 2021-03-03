@@ -9,8 +9,8 @@ public class Server {
     public static ServerSocket createServerSocket() throws IOException {
         ServerSocket server;
         InetAddress address = InetAddress.getByName("169.254.31.188");
-        // System.out.println("");//input ip address or use default
-        server = new ServerSocket(5544, 50, address);    //InetAddress.getByName("hbmb"));  //192.168.0.104")
+        server = new ServerSocket(5544, 5, address);
+        System.out.println("server is running");
         return server;
     }
 

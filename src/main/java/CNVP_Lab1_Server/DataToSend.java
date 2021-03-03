@@ -1,9 +1,6 @@
 package CNVP_Lab1_Server;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
+ import java.io.IOException;
 
 public class DataToSend {
     public static String getDataToSend(String receivedData) throws IOException {
@@ -16,6 +13,4 @@ public class DataToSend {
             throw new UnsupportedOperationException();
         }
     }
-
-
 }
